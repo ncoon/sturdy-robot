@@ -14,7 +14,7 @@ def kPatoPSI():
 		print '\n'
 	promptgoback = raw_input ('Go back to calculator? 1 = Yes | 0 = No ')
 	print '\n'
-	if str(promptgoback) or str(promptgoback) == '':
+	if str(promptgoback) == '':
 		return
 	if int(promptgoback) < 0 or int(promptgoback) >= 2:
 		return

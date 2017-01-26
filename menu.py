@@ -18,6 +18,7 @@ j = 9
 k = 10
 l = 11
 m = 12
+n = 13
 #########################################################################################
 # User Menu
 # Be sure to change the integer in the if statement that runs Menu() on wrong input to 1 point above the highest numbered menu item.
@@ -37,6 +38,7 @@ def Menu():
 	print 'Pediatric Vitals = 10 '
 	print 'PHI Score = 11 '
 	print 'Cincinnati Pre Hospital Stroke Scale = 12'
+	print 'Centimeter/Feet Converter = 13'
 	print '\n'
 	try:
 		promptscript = -1
@@ -79,9 +81,12 @@ def Menu():
 			import prehospitalindex
 			returnmenu.backtomenu()
 		elif int(promptscript) == int(m):
-		        import cincinnati
-		        returnmenu.backtomenu()
-		elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 13:
+		    import cincinnati
+		    returnmenu.backtomenu()
+       		elif int(promptscript) == int(n):
+		    import height
+                    returnmenu.backtomenu()
+		elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 14:
 			#Needs to bring returnmenu script
 			returnmenu.backtomenu()
 	except ValueError:

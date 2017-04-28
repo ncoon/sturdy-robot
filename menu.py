@@ -1,4 +1,4 @@
-# Welcome to EMSCalc! This is a short script written to help EMS practitioners with various formulae that they won't be bothered to remember.
+# Welcome to sturdy-robot! This is a short script written to help EMS practitioners with various formulae that they won't be bothered to remember.
 # More formulae will be added in the future.
 print 'Welcome to sturdy-robot.'
 print '\n'
@@ -19,6 +19,7 @@ k = 10
 l = 11
 m = 12
 n = 13
+o = 14
 #########################################################################################
 # User Menu
 # Be sure to change the integer in the if statement that runs Menu() on wrong input to 1 point above the highest numbered menu item.
@@ -39,6 +40,7 @@ def Menu():
 	print 'PHI Score = 11 '
 	print 'Cincinnati Pre Hospital Stroke Scale = 12'
 	print 'Centimeter/Feet Converter = 13'
+	print "Beck's Triad = 14"
 	print '\n'
 	try:
 		promptscript = -1
@@ -86,6 +88,9 @@ def Menu():
        		elif int(promptscript) == int(n):
 		    import height
                     returnmenu.backtomenu()
+		elif int(promptscript) == int(o):
+                    import beckstriad
+		    returnmenu.backtomenu()
 		elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 14:
 			#Needs to bring returnmenu script
 			returnmenu.backtomenu()

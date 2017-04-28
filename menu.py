@@ -21,6 +21,7 @@ m = 12
 n = 13
 o = 14
 p = 15
+q = 16
 #########################################################################################
 # User Menu
 # Be sure to change the integer in the if statement that runs Menu() on wrong input to 1 point above the highest numbered menu item.
@@ -43,6 +44,7 @@ def Menu():
 	print 'Centimeter/Feet Converter = 13'
 	print "Beck's Triad = 14"
 	print "Cushing's Triad = 15"
+	print "Dieulafoy's Triad = 16"
 	print '\n'
 	try:
 		promptscript = -1
@@ -96,7 +98,10 @@ def Menu():
 	        elif int(promptscript) == int(p):
 		    import cushingstriad
 		    returnmenu.backtomenu()
-		elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 16:
+		elif int(promptscript) == int(q):
+		    import dieulafoystriad
+		    returnmenu.backtomenu()
+		elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 17:
 			#Needs to bring returnmenu script
 			returnmenu.backtomenu()
 	except ValueError:

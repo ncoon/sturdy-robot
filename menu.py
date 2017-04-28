@@ -91,7 +91,7 @@ def Menu():
 		elif int(promptscript) == int(o):
                     import beckstriad
 		    returnmenu.backtomenu()
-		elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 14:
+		elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 15:
 			#Needs to bring returnmenu script
 			returnmenu.backtomenu()
 	except ValueError:

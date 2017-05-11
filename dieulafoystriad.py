@@ -4,4 +4,3 @@ def dieulafoystriad():
 	print "McBurney's point is the point located over the right side of the abdomen that is one-third of the distance from the anterior superior iliac spine to the umbilicus(navel). This point roughly corresponds to the most common location of the base of the appendix where it is attached to the cecum in the Lower Right Abdominal Quadrant.\n"
 
 	return
-dieulafoystriad()

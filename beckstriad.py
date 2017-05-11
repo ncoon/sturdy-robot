@@ -4,4 +4,3 @@ def beckstriad():
 	print "Narrowed pulse pressure means that the difference between the systolic and diastolic values is less than 25% of the systolic value. (eg. 120/80 gives a pulse pressure of 40mmHg which equals 33.33% of the systolic blood pressure.)\n"
 	print "\n"
 	return
-beckstriad()

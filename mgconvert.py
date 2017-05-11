@@ -1,4 +1,4 @@
-def Milligram():
+def mgconvert():
 	# Milligram / Microgram Converter
 	promptask = raw_input ('Convert mg>ug(mcg) (1) or ug(mcg)>mg? (2) ')
 	print '\n'
@@ -17,5 +17,4 @@ def Milligram():
 		Milligram()
 	elif int(promptgoagain) == 2:
 		return
-	else : return
-Milligram()
+	else: return

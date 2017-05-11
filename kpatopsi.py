@@ -1,4 +1,4 @@
-def kPatoPSI():
+def kpatopsi():
 	promptkpaorpsi = raw_input ('Convert kPa>PSI = 1 or PSI>kPa = 2? ')
 	print '\n'
 	if int(promptkpaorpsi) == 2:
@@ -22,4 +22,3 @@ def kPatoPSI():
 		kPatoPSI()
 	elif int(promptgoback) == 0:
 		return
-kPatoPSI()

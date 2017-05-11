@@ -1,5 +1,5 @@
 # Average Pediatric Weights and Vital Signs
-def PediatricVitals():
+def pedvitals():
 	print 'Average weights and vitals signs by age. '
 	print '\n'
 	promptage = float(raw_input('Enter patient age in years. \n' '(If <1 year enter either 0(for birth), 0.25(3 months) or 0.5(6 months)) \n'))
@@ -69,4 +69,4 @@ def PediatricVitals():
 			PediatricVitals()
 		elif int(promptgoback) >= 2:
 			return
-PediatricVitals()
+

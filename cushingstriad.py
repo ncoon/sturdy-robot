@@ -4,4 +4,3 @@ def cushingstriad():
 	print "A widening pulse pressure is when the difference between the systolic and diastolic values is elevated. (eg. 180/60 gives a pulse pressure of 120mmHg.)\n"
 
 	return
-cushingstriad()

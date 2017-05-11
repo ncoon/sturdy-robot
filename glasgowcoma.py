@@ -1,4 +1,4 @@
-def GlasgowComaScale():
+def glasgowcoma():
 	print 'Eyes - 1 = Does not open eyes | 2 = Opens eyes in response to pain '
 	print '3 = Opens eyes in response to voice | 4 = Opens eyes spontaneously '
 	print '\n'
@@ -20,4 +20,3 @@ def GlasgowComaScale():
 	print 'Total GCS score = ' + str(int(totalgcs)) + '. '
 	print '\n'
 	return
-GlasgowComaScale()

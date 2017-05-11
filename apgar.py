@@ -1,4 +1,4 @@
-def APGAR():
+def apgar():
 	print 'APGAR test is to be done at 1 minute and 5 minutes post delivery.(Repeated at 5 minute intervals if scores are low.) '
 	print ''
 	print '0 = Blue or pale all over '
@@ -35,4 +35,3 @@ def APGAR():
 	print str(apgarscore)
 	print '\n'
 	return
-APGAR()

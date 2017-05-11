@@ -1,4 +1,4 @@
-def Parkland():
+def parkland():
 	# Parkland Formula Calculation!
 	# V = 4*m*(A*100)
 	promptkg = raw_input ('Enter patient weight in kg. ')
@@ -12,4 +12,3 @@ def Parkland():
 	print 'Administer ' + str(int(halffluid)) + 'ml ' + first_plan + 'Administer ' + str(int(halffluid)) + 'ml ' + second_plan
 	print '\n'	
 	return
-Parkland()

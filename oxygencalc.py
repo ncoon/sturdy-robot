@@ -1,4 +1,4 @@
-def Oxygen():
+def oxygencalc():
 	# Oxygen Tank Calculation!
 	# ((PSI - 200) * Tank Constant) / Flow Rate (Litres per minute)
 	D = 0.16   ## 350liters of O2
@@ -15,4 +15,3 @@ def Oxygen():
 	print time
 	print '\n'
 	return
-Oxygen()

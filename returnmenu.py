@@ -7,8 +7,7 @@ def backtomenu():
 			promptmenu = raw_input ('Return to menu? 1 = Yes , 0 = No ')
 			print '\n'
 			if int(promptmenu) > 0:	
-				import menu
-				return menu.Menu()
+				return 
 				print '\n'
 			elif int(promptmenu) == 0:
 				print 'See you later! '

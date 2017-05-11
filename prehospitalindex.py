@@ -1,5 +1,5 @@
 # Prehospital Index
-def PHI():
+def prehospitalindex():
 	print 'Prehospital Index as used by AHS. '
 	print '\n'
 	promptpressure = raw_input ('Enter blood pressure. ')
@@ -54,4 +54,3 @@ def PHI():
 		PHI()
 	elif int(promptgoback) == 2:
 		return
-PHI()

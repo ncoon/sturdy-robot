@@ -1,6 +1,6 @@
 # IV Flow Rate Calc
 # (Volume / time(minutes)) * (drop factor / 1)
-def IVFlowRate():
+def ivflowrate():
 	prompttotal = raw_input ('Enter the total volume to be administered. (Milliliters) ')
 	print '\n'
 	prompttime = raw_input ('Enter the time the volume is to be administered in. (Minutes only) ')
@@ -12,4 +12,3 @@ def IVFlowRate():
 	print str(int(dropspermin)) + ' Drops per minute. Or ' + str(int(dropsper10s)) + ' drops per 10 seconds. '
 	print '\n'
 	return
-IVFlowRate()

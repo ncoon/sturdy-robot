@@ -1,5 +1,5 @@
 # Cincinnati Pre Hospital Stroke Scale
-def cincinatti():
+def cincinnati():
     print "Facial droop: Have the patient smile."
     print "Normal: Both sides of the patient's face move equally."
     print "Abnormal: One side of the patient's face does not move as much or at all."
@@ -14,4 +14,4 @@ def cincinatti():
     print "Wikipedia: Patients with 1 of these 3 findings as a new event have a 72% probability of an ischemic stroke."
     print "If all 3 findings are present, the probability of an acute stroke is more than 85%."
     return
-cincinatti()
+

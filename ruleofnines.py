@@ -1,5 +1,5 @@
 # Rule of Nines
-def RuleOfNines():
+def ruleofnines():
 	promptpt = raw_input ('Adult = 1 | Pediatric = 2 ')
 	print '\n'
 	if int(promptpt) == 1:
@@ -36,4 +36,3 @@ def RuleOfNines():
 		elif int(promptgoback) == 2:
 			return
 			print '\n '
-RuleOfNines()

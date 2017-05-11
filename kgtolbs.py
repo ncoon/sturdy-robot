@@ -1,4 +1,4 @@
-def Kgtolbs():
+def kgtolbs():
 	# Kg to lbs & lbs to kg converter
 	promptask = raw_input ('Convert kg>lbs (1) or lbs>kg? (2) ')
 	print '\n'
@@ -18,4 +18,3 @@ def Kgtolbs():
 	elif int(promptgoagain) == 2:
 		return
 	else : return
-Kgtolbs()

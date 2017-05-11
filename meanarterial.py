@@ -1,4 +1,4 @@
-def MAP():
+def meanarterial():
 	# Mean Arterial Pressure Calculator!
 	promptsystolic = raw_input ('Enter systolic blood pressure. ')
 	print '\n'
@@ -7,7 +7,5 @@ def MAP():
 	pulsepressure = int(promptsystolic) - int(promptdiastolic)
 	MeanArterialPressure = int(promptdiastolic) + (int(pulsepressure) / 3)
 	print 'Mean Arterial Pressure is ' + str(int(MeanArterialPressure)) + '.'
-	print '\n'	
+	print '\n'
 	return
-	
-MAP()

@@ -7,6 +7,8 @@
 	3 - Again, with "termux" run "git clone https://github.com/ncoon/sturdy-robot" without quotations.
 
 	4 - Now you can run the code! Simply change directories "cd sturdy-robot" followed by "python2 main.py".
+	
+	*Updating the program. As of yet there is no automatic update function, so you'll have to open "termux" and run "rm -rf ./sturdy-robot" to delete the directory containing sturdy-robot, then run STEP 3 again. 
 
 #Alternatively you may download the code and run it without termux by using another python interpreter. This code should be operating system agnostic.
 

@@ -2,7 +2,7 @@
 def ruleofnines():
 	promptpt = raw_input ('Adult = 1 | Pediatric = 2 ')
 	print '\n'
-	if int(promptpt) == 1:
+	if int(promptpt) == 1: ####ADULT
 		promptnines = raw_input ('Anterior = 1 | Posterior = 2 ')
 		print '\n'
 		if int(promptnines) == 1:
@@ -13,12 +13,12 @@ def ruleofnines():
 			print '\n '
 		promptgoback = raw_input ('Rule of Nines = 1 | Menu = 2 ')
 		if int(promptgoback) == 1:
-			RuleOfNines()
+			ruleofnines()
 			print '\n '
 		elif int(promptgoback) == 2:
 			return
 			print '\n '
-	elif int(promptpt) == 2:
+	elif int(promptpt) == 2: ########PEDIATRIC
 		print 'For every year > 1 year old add 0.5% to each leg and subtract 1% from the head. Use this formula until adult values are reached. '
 		print '\n'
 		promptinfant = raw_input ('Anterior = 1 | Posterior = 2 ')
@@ -31,7 +31,7 @@ def ruleofnines():
 			print '\n '
 		promptgoback = raw_input ('Rule of Nines = 1 | Menu = 2 ')
 		if int(promptgoback) == 1:
-			RuleOfNines()
+			ruleofnines()
 			print '\n '
 		elif int(promptgoback) == 2:
 			return

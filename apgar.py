@@ -31,7 +31,10 @@ def apgar():
 	print '\n'
 	promptrespiration = raw_input ('Enter value for respiration. ')
 	print '\n'
-	apgarscore = str(int(promptcomplexion) + int(promptpulsescore) + int(promptgrimace) + int(promptactivity) + int(promptrespiration)) + ' is the APGAR score. '
-	print str(apgarscore)
+	try:
+		apgarscore = str(int(promptcomplexion) + int(promptpulsescore) + int(promptgrimace) + int(promptactivity) + int(promptrespiration)) + ' is the APGAR score. '
+		print str(apgarscore)
+	except:
+		print 'Please enter valid integers when prompted.\n'
 	print '\n'
 	return

@@ -16,7 +16,10 @@ def glasgowcoma():
 	print '\n'
 	promptmotor = raw_input ('Enter value for Motor. ')
 	print '\n'
-	totalgcs = int(prompteyes) + int(promptverbal) + int(promptmotor)
-	print 'Total GCS score = ' + str(int(totalgcs)) + '. '
+	try:
+		totalgcs = int(prompteyes) + int(promptverbal) + int(promptmotor)
+		print 'Total GCS score = ' + str(int(totalgcs)) + '. '
+	except:
+		print 'Please enter valid integers when prompted.\n'
 	print '\n'
 	return

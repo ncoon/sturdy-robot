@@ -1,4 +1,0 @@
-title=sturdyrobot
-author=Nicholas Coon
-orientation=portrait
-fullscreen=1

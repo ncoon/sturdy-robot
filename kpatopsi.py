@@ -12,13 +12,13 @@ def kpatopsi():
 		kpatopsi = (float(promptkpa) * 0.145038)
 		print str(float(kpatopsi)) + ' PSI. '	
 		print '\n'
+def goback():
 	promptgoback = raw_input ('Go back to calculator? 1 = Yes | 0 = No ')
 	print '\n'
-	if str(promptgoback) == '':
+
+	if float(promptgoback) == 1:
+		kpatopsi()
+	elif float(promptgoback) == 0:
 		return
-	if int(promptgoback) < 0 or int(promptgoback) >= 2:
-		return
-	elif int(promptgoback) == 1:
-		kPatoPSI()
-	elif int(promptgoback) == 0:
+	else :
 		return

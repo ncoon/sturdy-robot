@@ -64,9 +64,9 @@ def pedvitals():
 		print '\n'
 		promptgoback = raw_input ('Return to Pediatric Vitals = 1 | or Menu = 2 ')
 		print '\n'
-	finally:
-		if int(promptgoback) == 1:
-			PediatricVitals()
-		elif int(promptgoback) >= 2:
-			return
+def goback():
+	if int(promptgoback) == 1:
+		pedvitals()
+	elif int(promptgoback) >= 2:
+		return
 

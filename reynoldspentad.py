@@ -8,4 +8,3 @@ def reynoldspentad():
 	print "		Changes in mental status\n"
 	return
 
-reynoldspentad()

@@ -11,10 +11,12 @@ def kgtolbs():
 		lbstokg = float(promptlbs) * 0.453592
 		print str(float(lbstokg)) + ' kg. '
 	print '\n'
+def goback():
 	promptgoagain = raw_input ('Back to converter (1) or main menu?(2) ')
 	print '\n'
 	if int(promptgoagain) == 1:
-		Kgtolbs()
+		kgtolbs()
 	elif int(promptgoagain) == 2:
 		return
-	else : return
+	else:
+		return

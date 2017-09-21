@@ -48,9 +48,12 @@ def prehospitalindex():
 	elif int(totalscore) >= 4:
 		print 'PHI is ' + str(int(totalscore)) + ' | Major Trauma '
 	print '\n'
+def goback():
 	promptgoback = raw_input ('Return to PHI calculator = 1 | Menu = 2 ')
 	print '\n'
 	if int(promptgoback) == 1:
-		PHI()
+		prehospitalindex()
 	elif int(promptgoback) == 2:
+		return
+	else:
 		return

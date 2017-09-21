@@ -11,10 +11,12 @@ def mgconvert():
 		ugtomg = float(promptug) / 1000
 		print str(float(ugtomg)) + ' mg. '
 	print '\n'
+def goback():
 	promptgoagain = raw_input ('Back to converter (1) or main menu?(2) ')
 	print '\n'
 	if int(promptgoagain) == 1:
-		Milligram()
+		mgconvert()
 	elif int(promptgoagain) == 2:
 		return
-	else: return
+	else:
+		return

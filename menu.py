@@ -78,10 +78,12 @@ def Menu():
 			elif int(promptscript) == int(f):
 				import kgtolbs
 				kgtolbs.kgtolbs()
+				kgtolbs.goback()
 				returnmenu.backtomenu()
 			elif int(promptscript) == int(g):
 				import mgconvert
 				mgconvert.mgconvert()
+				mgconvert.goback()
 				returnmenu.backtomenu()
 			elif int(promptscript) == int(h):
 				import glasgowcoma
@@ -94,10 +96,12 @@ def Menu():
 			elif int(promptscript) == int(j):
 				import kpatopsi
 				kpatopsi.kpatopsi()
+				kpatopsi.goback()
 				returnmenu.backtomenu()
 			elif int(promptscript) == int(k):
 				import pedvitals
 				pedvitals.pedvitals()
+				pedvitals.goback()
 				returnmenu.backtomenu()
 			elif int(promptscript) == int(l):
 				import prehospitalindex
@@ -107,9 +111,10 @@ def Menu():
 				import cincinnati
 				cincinnati.cincinnati()
 			    	returnmenu.backtomenu()
-       			elif int(promptscript) == int(n):
-			    	import height
+			elif int(promptscript) == int(n):
+				import height
 				height.height()
+				height.goback()
                 	    	returnmenu.backtomenu()
 			elif int(promptscript) == int(o):
                 	    	import beckstriad

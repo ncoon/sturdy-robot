@@ -12,6 +12,7 @@ tee 'python2 ~/sturdy-robot/main.py' >> ~/.termux/boot/sturdyrobot.sh
 touch ~/home/update.sh
 chmod u+x ~/home/update.sh
 tee '#/bin/bash' >> ~/home/update.sh
+tee 'rm -rf sturdy-robot' >> ~/home/update.sh
 tee 'git clone https://github.com/ncoon/sturdy-robot' >> ~/home/update.sh
 tee "alias update='./update.sh'" >> ~/.bashrc
 tee "alias sturdyrobot='python2 ~/sturdy-robot/main.py'" >> ~/.bashrc

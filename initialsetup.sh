@@ -6,13 +6,13 @@
 mkdir ~/termux/boot/
 touch ~/.termux/boot/sturdyrobot.sh
 chmod u+x ~/.termux/boot/sturdyrobot.sh
-tee '#/bin/bash' >> ~/.termux/boot/sturdyrobot.sh
-tee 'python2 ~/sturdy-robot/main.py' >> ~/.termux/boot/sturdyrobot.sh
+echo '#/bin/bash' >> ~/.termux/boot/sturdyrobot.sh
+echo 'python2 ~/sturdy-robot/main.py' >> ~/.termux/boot/sturdyrobot.sh
 
 touch ~/update.sh
 chmod u+x ~/update.sh
-tee '#/bin/bash' >> ~/update.sh
-tee 'rm -rf sturdy-robot' >> ~/update.sh
-tee 'git clone https://github.com/ncoon/sturdy-robot' >> ~/update.sh
-tee "alias update='./update.sh'" >> ~/etc/bash.bashrc
-tee "alias sturdyrobot='python2 ~/sturdy-robot/main.py'" >> ~/etc/bash.bashrc
+echo '#/bin/bash' >> ~/update.sh
+echo 'rm -rf sturdy-robot' >> ~/update.sh
+echo 'git clone https://github.com/ncoon/sturdy-robot' >> ~/update.sh
+echo "alias update='./update.sh'" >> ~/etc/bash.bashrc
+echo "alias sturdyrobot='python2 ~/sturdy-robot/main.py'" >> ~/etc/bash.bashrc

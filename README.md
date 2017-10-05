@@ -10,7 +10,7 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
 	3 - Again, with "termux" run "git clone https://github.com/ncoon/sturdy-robot" without quotations.
 
-	4 - Now you can run initial setup script! Simply change directories "cd sturdy-robot", followed by "chmod u+x   initialsetup.sh" to give execute permissions to the setup script. Then run the following commands: "mv initialsetup.sh ..", "cd ..", and "./initialsetup.sh".
+	4 - Now you can run initial setup script! Simply change directories "cd sturdy-robot", followed by "chmod u+x initialsetup.sh" to give execute permissions to the setup script. Then run the following commands: "mv initialsetup.sh ..", "cd ..", and "./initialsetup.sh".
 	
 	5 - After the script has run, you can simply run "sturdyrobot" to execute the program inside "termux", or "update" to download the newest version of "sturdy-robot". 
 #Alternatively you may download the code and run it without termux by using another python interpreter. This code should be operating system agnostic.

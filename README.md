@@ -1,4 +1,4 @@
-<<sturdy-robot>> is a simple tool to help EMS practitioners. To run the code on an android device you can do the following steps:
+sturdy-robot is a simple tool to help EMS practitioners. To run the code on an android device you can do the following steps:
 
 PLEASE READ THE LICENSE DOCUMENT - GPLv3
 

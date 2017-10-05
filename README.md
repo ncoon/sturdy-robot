@@ -8,10 +8,9 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
 	3 - Again, with "termux" run "git clone https://github.com/ncoon/sturdy-robot" without quotations.
 
-	4 - Now you can run the code! Simply change directories "cd sturdy-robot" followed by "python2 main.py".
+	4 - Now you can run initial setup script! Simply change directories "cd sturdy-robot", followed by "chmod u+x   	    initialsetup.sh" to give execute permissions to the setup script. Then run "./initialsetup.sh".
 	
-	*Updating the program. As of yet there is no automatic update function, so you'll have to open "termux" and run STEP 3 again. 
-
+	5 - After the script has run, you can simply run "sturdyrobot" to execute the program inside "termux", or "update" to 		  download the newest version of "sturdy-robot". 
 #Alternatively you may download the code and run it without termux by using another python interpreter. This code should be operating system agnostic.
 
 #Feel free to copy the project and add your own scripts, please contact me if you do so as I'd like to add them to sturdy-robot!
@@ -20,7 +19,7 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
 #Step 3 explained: "git clone https://github.com/ncoon/sturdy-robot" tells the program "git" to download the contents of the url into a directory named "sturdy-robot". 
 
-#Step 4 explained: "cd sturdy-robot" changes directories to the sturdy-robot directory. You can then execute the program by running "python2 main.py" which tells termux to run main.py as a python program.
+#Step 4 explained: "cd sturdy-robot" changes directories to the sturdy-robot directory. Using "chmod u+x" gives the current user execute permissions for the specified file. Running "./" is a standard way to execute a script in a Linux environment.
  
-#How to review the source code: "cd" into the sturdy-robot directory and then list all the files therein with the "ls" command.  Use the "nano" text editor to open any of the files for your review, for example "nano height.py". Press the hardware key "Volume Down" and the "x" on the keyboard at the same time to exit nano.
+#How to review the source code: "cd" into the sturdy-robot directory and then list all the files therein with the "ls" command.  Use the "nano" text editor to open any of the files for your review, for example "nano height.py". Press the hardware key "Volume Down" and the "x" on the keyboard at the same time to exit nano. You can also review the entire source code at this github page.
 

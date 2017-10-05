@@ -3,7 +3,7 @@
 # Creates the default directory to store termux scripts, then creates and edits a script which auto runs sturdy-robot on startup of termux.
 # After that it creates an "update" script and alias to easily clone the repo to obtain the newest code.
 
-mkdir ~/termux/boot/
+mkdir ~/com.termux/boot/
 touch ~/com.termux/boot/sturdyrobot.sh
 chmod u+x ~/com.termux/boot/sturdyrobot.sh
 echo '#/bin/bash' >> ~/com.termux/boot/sturdyrobot.sh

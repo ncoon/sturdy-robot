@@ -2,6 +2,8 @@
 
 PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
+#The following instructions can be copied from this site and pasted in "termux" by long pressing anywhere on the terminal.
+
 	1 - Download "termux"(A free and open source app.) from the google play store or f-droid.
 
 	2 - Open "termux" and run "apt update" and followed by "apt install git python2 nano proot" without quotations.

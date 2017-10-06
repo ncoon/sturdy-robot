@@ -6,7 +6,7 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
 	1 - Download "termux"(A free and open source app.) from the google play store or f-droid.
 
-	2 - Open "termux" and run "apt update" and followed by "apt install git python2 nano proot" without quotations.
+	2 - Open "termux" and run "apt update" and followed by "apt install git python2 nano" without quotations.
 
 	3 - Again, with "termux" run "git clone https://github.com/ncoon/sturdy-robot" without quotations.
 
@@ -26,7 +26,7 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
 #Feel free to copy the project and add your own scripts, please contact me if you do so as I'd like to add them to sturdy-robot!
 
-#Step 2 explained: "apt update" tells "apt" (The Advanced Packaging Tool, a program which installs programs and their dependencies for you.) to update it's software lists or "repositories". Then "apt install git python2 nano proot" tells "apt" to install the software packages git (To download projects from github), python2 (the programming language required to run "sturdy-robot"), nano (A simple text editor so that you can review the source code for "sturdy-robot"), and proot (Required to be able to modify files like bash.bashrc).
+#Step 2 explained: "apt update" tells "apt" (The Advanced Packaging Tool, a program which installs programs and their dependencies for you.) to update it's software lists or "repositories". Then "apt install git python2 nano" tells "apt" to install the software packages git (To download projects from github), python2 (the programming language required to run "sturdy-robot"), and nano (A simple text editor so that you can review the source code for "sturdy-robot").
 
 #Step 3 explained: "git clone https://github.com/ncoon/sturdy-robot" tells the program "git" to download the contents of the url into a directory named "sturdy-robot". 
 

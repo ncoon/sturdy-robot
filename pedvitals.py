@@ -59,12 +59,15 @@ def pedvitals():
 		elif int(promptage) >= 18:
 			print '\n'
 			print 'Please reference adult vitals charts. '
-		print '\n'
-		print 'Source: https://myhealth.alberta.ca/Health/Pages/conditions.aspx?hwid=abo2987 '
-		print '\n'
-		promptgoback = raw_input ('Return to Pediatric Vitals = 1 | or Menu = 2 ')
-		print '\n'
+	except:
+		print 'Please enter an integer in the range of 0 through 18. '
+	print '\n'
+	print 'Source: https://myhealth.alberta.ca/Health/Pages/conditions.aspx?hwid=abo2987 '
+	print '\n'
+	print '\n'
+
 def goback():
+	promptgoback = raw_input ('Return to Pediatric Vitals = 1 | or Menu = 2 ')
 	if int(promptgoback) == 1:
 		pedvitals()
 	elif int(promptgoback) >= 2:

@@ -29,7 +29,9 @@ def ruleofnines():
 		elif int(promptinfant) == 2:
 			print 'Head 9%, Trunk 18%, Arms 4.5% (Each), Legs 7% (Each) '
 			print '\n '
-promptgoback = raw_input ('Rule of Nines = 1 | Menu = 2 ')
+def goback():
+
+	promptgoback = raw_input ('Rule of Nines = 1 | Menu = 2 ')
 	if int(promptgoback) == 1:
 		ruleofnines()
 		print '\n '
@@ -39,3 +41,4 @@ promptgoback = raw_input ('Rule of Nines = 1 | Menu = 2 ')
 	else:
 		return
 		print '\n'
+

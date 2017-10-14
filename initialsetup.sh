@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Creates two scripts and then aliases for easy calling of the scripts
 

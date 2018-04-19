@@ -17,7 +17,7 @@ echo 'python2 ~/home/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script 
 touch ~/autolaunchsetup.sh
 chmod u+x ~/autolaunchsetup.sh
 echo '#!/bin/bash' > ~/autolaunchsetup.sh
-echo 'mv ~/sturdyrobotauto.sh ~/.shortcuts/sturdyrobotauto.sh'
+echo 'mv ~/sturdyrobotauto.sh ~/.shortcuts/sturdyrobotauto.sh' >> ~/autolaunchsetup.sh
 
 touch ~/update.sh
 chmod u+x ~/update.sh

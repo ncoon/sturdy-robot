@@ -28,3 +28,5 @@ echo "alias update='./update.sh'" > ../usr/etc/bash.bashrc
 echo "alias sturdyrobot='python2 ~/sturdy-robot/main.py'" >> ../usr/etc/bash.bashrc # These lines create aliases for the scripts.
 echo "alias sturdy-robot='python2 ~/sturdy-robot/main.py'" >> ../usr/etc/bash.bashrc
 source ../usr/etc/bash.bashrc
+
+./autolaunchsetup.sh

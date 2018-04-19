@@ -52,7 +52,7 @@ Run the following commands:
 
 #Step 3 explained: "git clone https://github.com/ncoon/sturdy-robot" tells the program "git" to download the contents of the url into a directory named "sturdy-robot". 
 
-#Steps 4, 5, 6, 7 explained: "cd sturdy-robot" changes directories to the sturdy-robot directory. Using "chmod u+x" gives the current user execute permissions for the specified file. "cd .." moves up one directory (folder), and running "./" is a standard way to execute a script in a Linux environment.
+#Steps 3, 4, 5, 6 explained: "cd sturdy-robot" changes directories to the sturdy-robot directory. Using "chmod u+x" gives the current user execute permissions for the specified file. "cd .." moves up one directory (folder), and running "./" is a standard way to execute a script in a Linux environment.
  
 #How to review the source code: Either read the code at https://github.com/ncoon/sturdy-robot or (using "termux")"cd" into the sturdy-robot directory and then list all the files therein with the "ls" command. Use the "nano" text editor to open any of the files for your review, for example "nano height.py". Press the hardware key "Volume Down" and the "x" on the keyboard at the same time to exit nano.
 

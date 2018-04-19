@@ -2,7 +2,7 @@
 
 # Creates two scripts and then aliases for easy calling of the scripts, also runs python script to move a autolaunch script to ~/.termux/boot/
 
-mkdir ~/com.termux/boot/
+mkdir boot
 
 touch ~/sturdyrobot.sh
 chmod u+x ~/sturdyrobot.sh

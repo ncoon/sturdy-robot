@@ -24,5 +24,5 @@ echo "alias sturdyrobot='python2 ~/sturdy-robot/main.py'" >> ../usr/etc/bash.bas
 echo "alias sturdy-robot='python2 ~/sturdy-robot/main.py'" >> ../usr/etc/bash.bashrc
 source ../usr/etc/bash.bashrc
 
-mv ~/sturdy-robot/autolaunchsetup.py ..
+mv ~/sturdy-robot/autolaunchsetup.py ~/home/autolaunchsetup.py
 python2 ~/autolaunchsetup.py

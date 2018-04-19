@@ -4,7 +4,7 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
 #The following instructions can be copied from this site and pasted in "termux" by long pressing anywhere on the terminal.
 
-	1 - Download "termux"(A free and open source app.) from the google play store or f-droid.
+	1 - Download "termux" and "termux:widget"(A free and open source app.) from the google play store(2.99$) or f-droid(FREE).
 
 	2 - Open "termux" and run "apt update" and followed by "apt install git python2 nano" without quotations.
 
@@ -20,7 +20,9 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 	
 	7 - "cd ..", and "./initialsetup.sh".
 	
-	8 - After the script has run, you can simply run "sturdyrobot" to execute the program inside "termux", or "update" to download the newest version of "sturdy-robot". 
+	8 - After the script has run, go to the your home screen and select to add a widget. Choose the "termux" widget to autolaunch sturdy-robot from your home screen.
+
+	9 - In "termux" you can simply run "sturdyrobot" to execute the program, or "update" to download the newest version of "sturdy-robot". 
 	
 #Alternatively you may download the code and run it without termux by using another python interpreter. This code should be operating system agnostic.
 

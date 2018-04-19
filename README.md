@@ -2,7 +2,7 @@ sturdy-robot is a simple tool to help EMS practitioners. To run the code on an a
 
 PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
-Recommended to get f-droid from: https://f-droid.org
+Recommended to get f-droid: https://f-droid.org
 
 #The following instructions can be copied from this site and pasted in "termux" by long pressing anywhere on the terminal.
 

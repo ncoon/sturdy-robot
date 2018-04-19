@@ -1,4 +1,3 @@
-import os.rename
 def autolaunchsetup(): # This moves the auto launch script to ~/.termux/boot
 	try:
 		promptuser = raw_input ('Do you want sturdyrobot to launch when termux starts? 1 = Yes | 0 = No\n')

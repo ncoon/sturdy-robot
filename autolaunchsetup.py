@@ -1,3 +1,4 @@
+import shutil
 def autolaunchsetup(): # This moves the auto launch script to ~/.termux/boot
 	promptuser = raw_input ('Do you want sturdyrobot to launch when termux starts? Y/n\n')
 	if str(promptuser) == 'Y':

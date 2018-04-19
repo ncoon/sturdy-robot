@@ -6,7 +6,7 @@ Recommended to get f-droid: https://f-droid.org
 
 #The following instructions can be copied from this site and pasted in "termux" by long pressing anywhere on the terminal.
 
-	1 - Download "termux" and "termux:widget"(A free and open source app.) from the google play store(2.99$) or f-droid(FREE).
+	1 - Download "termux" and "termux:widget"(A free and open source app.) from the google play store or f-droid(FREE).
 
 	2 - Open "termux" and run "apt update" and followed by "apt install git python2 nano" without quotations.
 

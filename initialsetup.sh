@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Creates two scripts and then aliases for easy calling of the scripts, also runs python script to move a autolaunch script to ~/.termux/boot/
+# Creates four scripts and then aliases for easy calling of the scripts, run autolaunchsetup.sh to move a autolaunch script to ~/boot/
 
 mkdir boot
 
@@ -12,7 +12,12 @@ echo 'python2 ~/sturdy-robot/main.py' >> ~/sturdyrobot.sh # This runs the sturdy
 touch ~/sturdyrobotauto.sh
 chmod u+x ~/sturdyrobotauto.sh
 echo '#!/bin/bash' > ~/sturdyrobotauto.sh
-echo 'python2 ~/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script can be moved to ~/.termux/boot for auto launching of sturdyrobot
+echo 'python2 ~/home/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script can be moved to ~/.termux/boot for auto launching of sturdyrobot
+
+touch ~/autolaunchsetup.sh
+chmod u+x ~/autolaunchsetup.sh
+echo '#!/bin/bash' > ~/autolaunchsetup.sh
+echo 'mv ~/sturdyrobotauto.sh ~/boot/sturdyrobotauto.sh'
 
 touch ~/update.sh
 chmod u+x ~/update.sh
@@ -23,6 +28,3 @@ echo "alias update='./update.sh'" > ../usr/etc/bash.bashrc
 echo "alias sturdyrobot='python2 ~/sturdy-robot/main.py'" >> ../usr/etc/bash.bashrc # These lines create aliases for the scripts.
 echo "alias sturdy-robot='python2 ~/sturdy-robot/main.py'" >> ../usr/etc/bash.bashrc
 source ../usr/etc/bash.bashrc
-
-mv ~/sturdy-robot/autolaunchsetup.py ~/home/autolaunchsetup.py
-python2 ~/autolaunchsetup.py

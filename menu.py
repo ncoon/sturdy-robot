@@ -137,7 +137,7 @@ def Menu():
 			elif int(promptscript) == int(s):
 				import dosagecalc
 				dosagecalc.dosagecalc()
-				returnmenu.returnmenu()
+				returnmenu.backtomenu()
 			elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 19:
 				#Needs to bring returnmenu script. REMEMBER to change the integer to a value greater than the highest numbered script.
 				returnmenu.backtomenu()

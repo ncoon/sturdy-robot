@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Creates four scripts and then aliases for easy calling of the scripts, run autolaunchsetup.sh to move a autolaunch script to ~/boot/
+# Creates four scripts and then aliases for easy calling of the scripts, makes an autolaunch shortcut if the user installed termux:widgets from f-droid
 
-mkdir boot
+mkdir ~/.shortcuts/
 
 touch ~/sturdyrobot.sh
 chmod u+x ~/sturdyrobot.sh
@@ -12,12 +12,12 @@ echo 'python2 ~/sturdy-robot/main.py' >> ~/sturdyrobot.sh # This runs the sturdy
 touch ~/sturdyrobotauto.sh
 chmod u+x ~/sturdyrobotauto.sh
 echo '#!/bin/bash' > ~/sturdyrobotauto.sh
-echo 'python2 ~/home/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script can be moved to ~/.termux/boot for auto launching of sturdyrobot
+echo 'python2 ~/home/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script can be moved to ~/.shortcuts for auto launching of sturdyrobot
 
 touch ~/autolaunchsetup.sh
 chmod u+x ~/autolaunchsetup.sh
 echo '#!/bin/bash' > ~/autolaunchsetup.sh
-echo 'mv ~/sturdyrobotauto.sh ~/boot/sturdyrobotauto.sh'
+echo 'mv ~/sturdyrobotauto.sh ~/.shortcuts/sturdyrobotauto.sh'
 
 touch ~/update.sh
 chmod u+x ~/update.sh

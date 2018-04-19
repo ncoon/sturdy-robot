@@ -135,7 +135,7 @@ def Menu():
 				reynoldspentad.reynoldspentad()
 			    	returnmenu.backtomenu()
 			elif int(promptscript) == int(s):
-				import dosagecalc.py
+				import dosagecalc
 				dosagecalc.dosagecalc()
 				returnmenu.returnmenu()
 			elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 19:

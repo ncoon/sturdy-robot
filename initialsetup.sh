@@ -10,8 +10,8 @@ echo '#!/bin/bash' > ~/sturdyrobot.sh
 echo 'python2 ~/sturdy-robot/main.py' >> ~/sturdyrobot.sh # This runs the sturdy-robot program
 
 touch ~/sturdyrobotauto.sh
-chmod u+x ~sturdyrobotauto.sh
-echo '#!/bin/bash' > ~sturdyrobotauto.sh
+chmod u+x ~/sturdyrobotauto.sh
+echo '#!/bin/bash' > ~/sturdyrobotauto.sh
 echo 'python2 ~/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script can be moved to ~/.termux/boot for auto launching of sturdyrobot
 
 touch ~/update.sh

@@ -2,29 +2,47 @@ sturdy-robot is a simple tool to help EMS practitioners. To run the code on an a
 
 PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
-Recommended to get f-droid: https://f-droid.org
+Before beginning go to https://f-droid.org (or Google Play) and install the "termux" and "termux:widget" apps. 
 
-#The following instructions can be copied from this site and pasted in "termux" by long pressing anywhere on the terminal.
+Termux copy and paste instructions
 
-	1 - Download "termux" and "termux:widget"(A free and open source app.) from the google play store or f-droid(FREE).
+1 - apt update && apt install git python2 nano
 
-	2 - Open "termux" and run "apt update" and followed by "apt install git python2 nano" without quotations.
+2 - git clone https://github.com/ncoon/sturdy-robot
 
-	3 - Again, with "termux" run "git clone https://github.com/ncoon/sturdy-robot" without quotations.
+3 - cd sturdy-robot
 
-	Run the following commands:
+4 - chmod u+x initialsetup.sh
+
+5 - mv initialsetup.sh .. (Be sure to include the ..)
+
+6 - cd ..
+
+7 - ./initialsetup.sh
+
+8* - update (To get new versions of sturdy-robot later on.)
+
+Verbose instructions
+
+1 - Open "termux" and run "apt update" and followed by "apt install git python2 nano" without quotations.
+
+2 - Again, with "termux" run "git clone https://github.com/ncoon/sturdy-robot" without quotations.
+
+Run the following commands:
 	
-	4 - Simply change directories "cd sturdy-robot" (This will show no output)
+3 - Simply change directories "cd sturdy-robot" (This will show no output)
 	
-	5 - "chmod u+x initialsetup.sh" (No output when run correctly) to give execute permissions to the setup script. 
+4 - "chmod u+x initialsetup.sh" (No output when run correctly) to give execute permissions to the setup script. 
 	
-	6 - "mv initialsetup.sh .." (No output when run correctly, make sure to run it with the ..)
+5 - "mv initialsetup.sh .." (No output when run correctly, make sure to run it with the ..)
 	
-	7 - "cd ..", and "./initialsetup.sh". (No output)
+6 - "cd ..", and "./initialsetup.sh". (No output)
 	
-	8 - After the script has run, go to the your home screen and select to add a widget. Choose the "termux" widget to autolaunch sturdy-robot from your home screen.
+7 - After the script has run, go to the your home screen and select to add a widget. Choose the "termux" widget to autolaunch sturdy-robot from your home screen.
 
-	9 - In "termux"(Open the app, not the widget) you can simply run "update" to download the newest version of "sturdy-robot". 
+8 - In "termux"(Open the app, not the widget) you can simply run "update" to download the newest version of "sturdy-robot". 
+
+
 	
 #Alternatively you may download the code and run it without termux by using another python interpreter. This code should be operating system agnostic.
 

@@ -12,7 +12,7 @@ echo 'python2 ~/sturdy-robot/main.py' >> ~/sturdyrobot.sh # This runs the sturdy
 touch ~/sturdyrobotauto.sh
 chmod u+x ~/sturdyrobotauto.sh
 echo '#!/bin/bash' > ~/sturdyrobotauto.sh
-echo 'python2 ~/home/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script can be moved to ~/.shortcuts for auto launching of sturdyrobot
+echo 'python2 ~/sturdy-robot/main.py' >> ~/sturdyrobotauto.sh #This script can be moved to ~/.shortcuts for auto launching of sturdyrobot
 
 touch ~/autolaunchsetup.sh
 chmod u+x ~/autolaunchsetup.sh

@@ -1,5 +1,5 @@
 # Welcome to sturdy-robot! This is a short script written to help EMS practitioners with various formulae that they won't be bothered to remember.
-# More formulae will be added in the future.
+# More will be added in the future.
 print 'Welcome to sturdy-robot.'
 print '\n'
 import returnmenu

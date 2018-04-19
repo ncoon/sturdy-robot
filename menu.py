@@ -23,6 +23,7 @@ o = 14
 p = 15
 q = 16
 r = 17
+s = 18
 #########################################################################################
 # User Menu
 # Be sure to change the integer in the if statement that runs Menu() on wrong input to 1 point above the highest numbered menu item.
@@ -50,6 +51,7 @@ def Menu():
 			print "Cushing's Triad = 15"
 			print "Dieulafoy's Triad = 16"
 			print "Reynold's Pentad = 17"
+			print 'Dosage Calculator = 18'
 			print '\n'
 
 			promptscript = -1
@@ -132,11 +134,15 @@ def Menu():
 			    	import reynoldspentad
 				reynoldspentad.reynoldspentad()
 			    	returnmenu.backtomenu()
-			elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 18:
+			elif int(promptscript) == int(s):
+				import dosagecalc.py
+				dosagecalc.dosagecalc()
+				returnmenu.returnmenu()
+			elif str(promptscript) or int(promptscript) <= -1 or int(promptscript) >= 19:
 				#Needs to bring returnmenu script. REMEMBER to change the integer to a value greater than the highest numbered script.
 				returnmenu.backtomenu()
 		except ValueError:
-			print 'Please enter a valid integer. '
+			print 'Please enter a valid integer.\n'
 			returnmenu.backtomenu()
 Menu()
 ##########################################################################################

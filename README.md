@@ -4,7 +4,8 @@ PLEASE READ THE LICENSE DOCUMENT - GPLv3
 
 Before beginning go to https://f-droid.org (or Google Play) and install the "termux" and "termux:widget" apps. 
 
-Termux copy and paste instructions
+
+Copy these commands from your web browser and paste them into termux. 
 
 1 - apt update && apt install git python2 nano
 
@@ -18,9 +19,12 @@ Termux copy and paste instructions
 
 6 - cd ..
 
-7 - ./initialsetup.sh
+7 - ./initialsetup.sh (This will show no output.)
 
 8* - update (To get new versions of sturdy-robot later on.)
+
+Go to the android home screen and place the sturdy-robot widget there. This allows you to click the widget to run sturdy-robot, rather than opening termux and then running sturdy-robot.
+
 
 Verbose instructions
 
@@ -28,7 +32,7 @@ Verbose instructions
 
 2 - Again, with "termux" run "git clone https://github.com/ncoon/sturdy-robot" without quotations.
 
-Run the following commands:
+Run the following commands: (Omit the quotations.)
 	
 3 - Simply change directories "cd sturdy-robot" (This will show no output)
 	
@@ -43,7 +47,6 @@ Run the following commands:
 8 - In "termux"(Open the app, not the widget) you can simply run "update" to download the newest version of "sturdy-robot". 
 
 
-	
 #Alternatively you may download the code and run it without termux by using another python interpreter. This code should be operating system agnostic.
 
 #Feel free to copy the project and add your own scripts, please contact me if you do so as I'd like to add them to sturdy-robot!

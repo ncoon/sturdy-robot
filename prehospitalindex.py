@@ -1,17 +1,17 @@
 # Prehospital Index
 def prehospitalindex():
-	print 'Prehospital Index as used by AHS. '
-	print '\n'
-	promptpressure = raw_input ('Enter blood pressure. ')
-	print '\n'
-	promptpulse = raw_input ('Enter pulse. ')
-	print '\n'
-	promptLOC = raw_input ('Level of Consciousness: 1 = Normal | 2 = Confused/Combative | 3 = No intelligible words. ')
-	print '\n'
-	promptresp = raw_input ('Respiratory rate: 1 = Normal | 2 = Labored | 3 = <10/min. ')
-	print '\n'
-	prompttrauma = raw_input ('Any penetrating wounds to head, chest, abdomen? 1 = Yes | 0 = No ')
-	print '\n'
+	print('Prehospital Index as used by AHS. ')
+	print('\n')
+	promptpressure = eval(input ('Enter blood pressure. '))
+	print('\n')
+	promptpulse = eval(input ('Enter pulse. '))
+	print('\n')
+	promptLOC = eval(input ('Level of Consciousness: 1 = Normal | 2 = Confused/Combative | 3 = No intelligible words. '))
+	print('\n')
+	promptresp = eval(input ('Respiratory rate: 1 = Normal | 2 = Labored | 3 = <10/min. '))
+	print('\n')
+	prompttrauma = eval(input ('Any penetrating wounds to head, chest, abdomen? 1 = Yes | 0 = No '))
+	print('\n')
 	if int(promptpressure) >= 100:
 		pressurescore = 0
 	elif int(promptpressure) >= 86 and int(promptpressure) <100:
@@ -44,13 +44,13 @@ def prehospitalindex():
 		traumascore = 0
 	totalscore = (int(pressurescore) + int(pulsescore) + int(locscore) + int(respscore) + int(traumascore))
 	if int(totalscore) <= 3:
-		print 'PHI is ' + str(int(totalscore)) + ' | Minor Trauma '
+		print(('PHI is ' + str(int(totalscore)) + ' | Minor Trauma '))
 	elif int(totalscore) >= 4:
-		print 'PHI is ' + str(int(totalscore)) + ' | Major Trauma '
-	print '\n'
+		print(('PHI is ' + str(int(totalscore)) + ' | Major Trauma '))
+	print('\n')
 def goback():
-	promptgoback = raw_input ('Return to PHI calculator = 1 | Menu = 2 ')
-	print '\n'
+	promptgoback = eval(input ('Return to PHI calculator = 1 | Menu = 2 '))
+	print('\n')
 	if int(promptgoback) == 1:
 		prehospitalindex()
 	elif int(promptgoback) == 2:

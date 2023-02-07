@@ -5,11 +5,11 @@ def oxygencalc():
 	E = 0.28   ## 625liters of O2
 	M = 1.56   ## 3000liters of O2
 	Safe = 200
-	promptpsi = raw_input ('Enter tank PSI. ')
-	print '\n'
-	promptlpm = raw_input ('Flow rate in Liters per minute. ')
-	print '\n'
-	promptconstant = raw_input ('Tank size? D=0.16/E=0.28/M=1.56 ')
+	promptpsi = eval(input ('Enter tank PSI. '))
+	print('\n')
+	promptlpm = eval(input ('Flow rate in Liters per minute. '))
+	print('\n')
+	promptconstant = eval(input ('Tank size? D=0.16/E=0.28/M=1.56 '))
 	try:
 		if str(promptconstant) == 'D':
 			constant = D
@@ -26,9 +26,9 @@ def oxygencalc():
 		else:
 			constant = float(promptconstant)
 	except:
-		print 'Please enter either the number or corresponding letter. ' 
-	print '\n'
+		print('Please enter either the number or corresponding letter. ') 
+	print('\n')
 	time = ((int(promptpsi) - 200) * float(constant)) / int(promptlpm)
-	print time
-	print '\n'
+	print(time)
+	print('\n')
 	return

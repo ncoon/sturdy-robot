@@ -1,7 +1,7 @@
 # Welcome to sturdy-robot! This is a short script written to help EMS practitioners with various formulae that they won't be bothered to remember.
 # More will be added in the future.
-print 'Welcome to sturdy-robot.'
-print '\n'
+print('Welcome to sturdy-robot.')
+print('\n')
 import returnmenu
 ##########################################################################################
 # Assign variables to the defined functions to easily add new scripts to the menu function.
@@ -31,32 +31,31 @@ def Menu():
 	infinitemenu = 102
 	while infinitemenu == 102:
 		try:
-			print 'Directory: '
-			print '\n'
-			print 'Parkland Formula = 0 '
-			print 'Oxygen Tank Calculation = 1 '
-			print 'IV Flow Rate = 2 '
-			print 'Rule of Nines = 3 '
-			print 'Mean Arterial Pressure = 4 '
-			print 'Kg/lbs Converter = 5 '
-			print 'Milligram/Microgram Converter = 6 '
-			print 'Glasgow Coma Scale = 7 '
-			print 'APGAR Test = 8 '
-			print 'kPA/PSI Converter = 9 '
-			print 'Pediatric Vitals = 10 '
-			print 'PHI Score = 11 '
-			print 'Cincinnati Pre Hospital Stroke Scale = 12'
-			print 'Centimeter/Feet Converter = 13'
-			print "Beck's Triad = 14"
-			print "Cushing's Triad = 15"
-			print "Dieulafoy's Triad = 16"
-			print "Reynold's Pentad = 17"
-			print 'Dosage Calculator = 18'
-			print '\n'
-
+			print('Directory: ')
+			print('\n')
+			print('Parkland Formula = 0 ')
+			print('Oxygen Tank Calculation = 1 ')
+			print('IV Flow Rate = 2 ')
+			print('Rule of Nines = 3 ')
+			print('Mean Arterial Pressure = 4 ')
+			print('Kg/lbs Converter = 5 ')
+			print('Milligram/Microgram Converter = 6 ')
+			print('Glasgow Coma Scale = 7 ')
+			print('APGAR Test = 8 ')
+			print('kPA/PSI Converter = 9 ')
+			print('Pediatric Vitals = 10 ')
+			print('PHI Score = 11 ')
+			print('Cincinnati Pre Hospital Stroke Scale = 12')
+			print('Centimeter/Feet Converter = 13')
+			print("Beck's Triad = 14")
+			print("Cushing's Triad = 15")
+			print("Dieulafoy's Triad = 16")
+			print("Reynold's Pentad = 17")
+			print('Dosage Calculator = 18')
+			print('\n')
 			promptscript = -1
-			promptscript = raw_input ('Enter the number corresponding to the function you would like to run. ')
-			print '\n'
+			promptscript = eval(input ('Enter the number corresponding to the function you would like to run. '))
+			print('\n')
 			if int(promptscript) == int(a) :
 				import parkland
 				parkland.parkland()
@@ -112,28 +111,28 @@ def Menu():
 			elif int(promptscript) == int(m):
 				import cincinnati
 				cincinnati.cincinnati()
-			    	returnmenu.backtomenu()
+				returnmenu.backtomenu()
 			elif int(promptscript) == int(n):
 				import height
 				height.height()
 				height.goback()
-                	    	returnmenu.backtomenu()
+				returnmenu.backtomenu()
 			elif int(promptscript) == int(o):
-                	    	import beckstriad
+				import beckstriad
 				beckstriad.beckstriad()
-			    	returnmenu.backtomenu()
-	        	elif int(promptscript) == int(p):
-			    	import cushingstriad
+				returnmenu.backtomenu()
+			elif int(promptscript) == int(p):
+				import cushingstriad
 				cushingstriad.cushingstriad()
-			    	returnmenu.backtomenu()
+				returnmenu.backtomenu()
 			elif int(promptscript) == int(q):
-			    	import dieulafoystriad
+				import dieulafoystriad
 				dieulafoystriad.dieulafoystriad()
-			    	returnmenu.backtomenu()
+				returnmenu.backtomenu()
 			elif int(promptscript) == int(r):
-			    	import reynoldspentad
+				import reynoldspentad
 				reynoldspentad.reynoldspentad()
-			    	returnmenu.backtomenu()
+				returnmenu.backtomenu()
 			elif int(promptscript) == int(s):
 				import dosagecalc
 				dosagecalc.dosagecalc()
@@ -142,7 +141,7 @@ def Menu():
 				#Needs to bring returnmenu script. REMEMBER to change the integer to a value greater than the highest numbered script.
 				returnmenu.backtomenu()
 		except ValueError:
-			print 'Please enter a valid integer.\n'
+			print('Please enter a valid integer.\n')
 			returnmenu.backtomenu()
 Menu()
 ##########################################################################################
